@@ -1,0 +1,133 @@
+body
+{
+    margin:0;
+    background: #1D0F0F;
+}
+nav
+{
+    position:fixed ;
+    display: grid;
+    grid-template-columns: 12.5vw 25vw 25vw 25vw 12.5vw;
+    width:100vw;
+    align-items: center;
+    height:10vh;
+    background: #453C41;
+
+}
+.Nav_Selection
+{
+    text-align: center;
+    height:35px;
+}
+.Nav_Item1,
+.Nav_Item2,
+.Nav_Item3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:2vw;
+    text-decoration: none;
+    color:white;
+}
+.Nav_Item1:active,
+.Nav_Item3:active,
+.Nav_Item2:active
+{
+    background: #7B7C81;
+}
+.Nav_Selection
+{
+    font-family: "Yu Gothic UI Light";
+    width:10vw;
+    height:4.5vh;
+    align-content: center;
+    background: #D4DBE2;
+    font-size: 1vw;
+}
+footer
+{
+    display: flex;
+    align-items:center;
+    background: #453C41;
+    color:white;
+}
+footer>ul
+{    font-size: 2vw;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+.Select_Start
+{
+    display: none;
+}
+.Question1-2
+{
+    color: white;
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vw;
+}
+.Question1
+{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: orange;
+    border-radius: 40vw;
+    width:28vw;
+    height:28vw;
+}
+.Question2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: orange;
+    border-radius: 40vw;
+    width:28vw;
+    height:28vw;
+}
+.Input_Checkbox
+{
+    width:2.5vw;
+    height:2.5vw;
+    margin:1vw 0 0 0;
+}
+.Input_Radio
+{
+    width:2.5vw;
+    height:2.5vw;
+    margin:1vw 0 0 0;
+}
+.Pre-End
+{
+    display: flex;
+    justify-content: center;
+}
+.End
+{
+    margin-top: 10vw;
+    margin-bottom: 20vw;
+    background: orange;
+    border-radius: 40vw;
+    width:20vw;
+    height:5vw;
+    font-size: 4.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.End>a
+{
+    text-decoration: none;
+    color: white;
+}

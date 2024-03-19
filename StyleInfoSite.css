@@ -1,0 +1,169 @@
+body
+{
+    margin:0;
+    background-image: url("FrameInfoSite.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    position:fixed ;
+    display: grid;
+    grid-template-columns: 12.5vw 25vw 25vw 25vw 12.5vw;
+    width:100vw;
+    align-items: center;
+    height:10vh;
+    background: #453C41;
+
+}
+.Nav_Selection
+{
+    text-align: center;
+    height:35px;
+}
+.Nav_Item1,
+.Nav_Item2,
+.Nav_Item3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:2vw;
+    text-decoration: none;
+    color:white;
+}
+.Nav_Item1:active,
+.Nav_Item3:active
+{
+    background: #7B7C81;
+}
+.Nav_Item2
+{
+    background: #7B7C81;
+}
+.Nav_Selection
+{
+    font-family: "Yu Gothic UI Light";
+    width:10vw;
+    height:4.5vh;
+    align-content: center;
+    background: #D4DBE2;
+    font-size: 1vw;
+}
+footer
+{
+    display: flex;
+    align-items:center;
+    background: #453C41;
+    color:white;
+}
+footer>ul
+{    font-size: 28px;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+.Select_Start
+{
+    display: none;
+}
+.Question1
+{
+    text-align: center;
+    color:white;
+    font-size:4vw;
+    padding-top: 11.5vw;
+    width:60%;
+    margin-left: 20%;
+}
+.Text1_1,
+.Text1_2,
+.Text1_3
+{
+    color:black;
+    font-size: 3.6vw;
+    width:20vw;
+}
+.Text1_1
+{
+    margin-left: 2vw;
+}
+.Text1_2
+{
+    margin-left: 25vw;
+    margin-top: -9vw;
+}
+.Text1_3
+{
+    margin-left: 45vw;
+    margin-top: -4.5vw;
+}
+.Text1_4
+{
+    color:black;
+    font-size: 3.6vw;
+    width:18vw;
+    margin-left: 66vw;
+    margin-top: -3.7vw;
+}
+.Text1_5
+{
+    color:black;
+    font-size: 3.6vw;
+    width:15vw;
+    margin-left: 85vw;
+    margin-top: -5vw;
+}
+.Question2
+{
+    text-align: center;
+    color:white;
+    font-size:4vw;
+    width:40%;
+    margin-left: 30%;
+}
+.Text2_1,
+.Text2_2,
+.Text2_3,
+.Text2_4
+{
+    color:black;
+    font-size: 3.6vw;
+    width:20vw;
+}
+.Text2_1
+{
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+.Text2_2
+{
+    margin-left: 24vw;
+    margin-top: -6.5vw;
+}
+.Text2_3
+{
+    margin-left: 46vw;
+    margin-top: -6.8vw;
+}
+.The_Selected_Text
+{
+    color:red;
+}
+.Text2_4
+{
+    margin-left: 68vw;
+    margin-top: -4vw;
+}
+.Text3
+{
+    font-size: 4vw;
+    color:white;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    text-align: center;
+    width:34%;
+    margin-left: 33%;
+}

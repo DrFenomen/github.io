@@ -1,0 +1,105 @@
+
+body
+{
+    margin:0;
+    background-image: url("Frame 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{ height: 10vh;
+    position:fixed ;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    width:100%;
+    align-items: center;
+    background: #453C41;
+}
+.Nav_Selection
+{
+    text-align: center;
+    height:35px;
+}
+.Nav_Item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-family: "Yu Gothic UI Light";
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+}
+.Nav_Item:active
+{
+    background: #7B7C81;
+}
+.Nav_Selection
+{
+    font-family: "Yu Gothic UI Light";
+    width:200px;
+    align-content: center;
+ background: #D4DBE2;
+    font-size: 20px;
+}
+.Info
+{
+    padding-left: 20px;
+    font-family: "Yu Gothic UI Light";
+    margin-top: 80px;
+    font-size: 30px;
+    width:60%;
+    height: 450%;
+    background: rgb(212, 219, 226, 0.8);
+    padding-bottom: 30px;
+}
+.Flex_Info
+{
+    display: flex;
+    justify-content: center;
+}
+.Nav_Logo
+{
+    height:4vh;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Info>h1,
+.Info>h2
+{
+    text-align: center;
+}
+footer
+{
+    display: flex;
+    align-items:center;
+    background: #453C41;
+    color:white;
+}
+footer>ul
+{    font-size: 28px;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+.Select_Start
+{
+ display: none;
+}
+.Important
+{
+    color:red;
+}
+.Info_Item
+{
+    width:150px;
+    border:none;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #FF6B00;
+}
